@@ -46,10 +46,10 @@ project's `CMakeLists.txt`:
 
 ### Standalone (for developers) ###
 
-If you already installed `llvm-5.0` in your machine:
+If you already installed `llvm-6.0` in your machine:
 
     mkdir build && cd build
-	cmake -DCMAKE_INSTALL_PREFIX=__dir__ -DLLVM_DIR=__here_llvm-5.0__/share/llvm/cmake  ..
+	cmake -DCMAKE_INSTALL_PREFIX=__dir__ -DLLVM_DIR=__here_llvm-6.0__/share/llvm/cmake  ..
    	cmake --build . --target install
 	cmake --build . --target test-sea-dsa
 	
